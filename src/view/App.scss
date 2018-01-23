@@ -1,0 +1,11 @@
+/* this is the root flex box, the upper most parent of all nest flex boxes */
+.root_flexbox {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  .app_container {
+    flex: 1;
+    display: flex;
+  }
+}
